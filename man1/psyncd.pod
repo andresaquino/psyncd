@@ -1,0 +1,68 @@
+=head1 NAME
+
+pSyncd - A Simple File Synchronizer Daemon
+
+=head1 SYNOPSIS
+
+psyncd [options]
+
+   Options:
+      --start           @start
+      --stop            @stop
+      --version         @version
+      --help            @help
+      --manual          @manual
+
+=head1 DESCRIPTION
+
+A Simple File Synchronizer Daemon
+
+=head1 ARGUMENTS
+
+=over 4
+
+=item B<none>
+
+Si ejecuta la aplicacion sin opciones, no se ejecutara en background y sera posible
+terminarlo en cualquier momento.
+
+=item B<--start>
+
+Ejecuta la aplicacion como demonio, esta se alojara en segundo planio registrando el 
+archivo ocdlogger.pid con el pid asignado por el sistema operativo.
+
+=item B<--stop>
+
+Si la aplicacion se esta ejecutando, entonces se busca su PID y se termina
+la aplicacion.
+
+=item B<--config>
+
+Muestra las opciones de configuracion
+
+=item B<--help>
+
+Muestra la ayuda
+
+=item B<--version>
+
+Muestra la version de la aplicacion
+
+=back
+
+=head1 AUTHOR
+ 
+Andres Aquino <aquino@hp.com>, All rights reserved 
+
+2010 Hewlett-Packard Mexico
+
+=head1 BUGS
+
+Muchos!
+
+=head1 COPYRIGHT
+
+This program is distributed under a BSD License
+
+=cut
+# vim: set ts=3 et sw=3 sts=3 si ai tw=80 lbr:
